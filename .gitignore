@@ -1,0 +1,19 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datasets (kept outside the repo, see README)
+data/raw/
+data/interim/
+data/processed/
+*.zip
+
+# Models / artifacts
+*.keras
+*.h5
+*.weights.h5
+
+# OS / editor
+.DS_Store

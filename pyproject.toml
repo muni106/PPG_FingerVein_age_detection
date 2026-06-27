@@ -1,0 +1,18 @@
+[project]
+name = "ppg-fingervein-age-detection"
+version = "0.1.0"
+description = "Age estimation from FingerVein images and PPG signals (Deep Learning project)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "pillow>=10.4",
+    "wfdb>=4.1",
+    "scipy>=1.13",
+    "tqdm>=4.66",
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+    "jupyterlab>=4.2",
+]
