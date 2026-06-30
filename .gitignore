@@ -8,6 +8,7 @@ __pycache__/
 data/raw/
 data/interim/
 data/processed/
+/proj_files/
 *.zip
 
 # Models / artifacts
@@ -17,3 +18,7 @@ data/processed/
 
 # OS / editor
 .DS_Store
+
+# Local AI agent instructions
+AGENTS.md
+CLAUDE.md

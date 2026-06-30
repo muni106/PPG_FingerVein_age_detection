@@ -2,14 +2,15 @@
 
 Deep Learning university project: **estimating a subject's age (regression)** from two
 biometric modalities — **FingerVein** images and **PPG** signals — and from their fusion.
-See the proposal (`../proposal_helpers/proposta-rivista.md`) for the full plan.
+The professor-agreed [official proposal](proposta-rivista.md) defines the project scope.
 
 This repository currently contains the **data-exploration / visualization** step only.
 
 ## Datasets
 
-The raw datasets are **not** committed (they are large). They live next to this project in
-`../proposal_helpers/proj_files/` as zip archives, and the notebooks read them directly:
+The official proposal specifies non-public FingerVein and PPG datasets. The archives
+currently under `proj_files/` are **provisional public datasets used for exploration**;
+they are not a confirmed replacement for the official project data.
 
 | Modality   | Archive                                                              | Format            | Labels |
 |------------|---------------------------------------------------------------------|-------------------|--------|
