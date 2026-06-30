@@ -1,7 +1,7 @@
-# PPG + FingerVein — Age Detection
+# PPG + FingerVein: Age Detection
 
 Deep Learning university project: **estimating a subject's age (regression)** from two
-biometric modalities — **FingerVein** images and **PPG** signals — and from their fusion.
+biometric modalities, **FingerVein** images and **PPG** signals, and from their fusion.
 The professor-agreed [official proposal](proposta-rivista.md) defines the project scope.
 
 This repository currently contains the **data-exploration / visualization** step only.
@@ -17,10 +17,10 @@ they are not a confirmed replacement for the official project data.
 | FingerVein | `MMCBNU_6000.zip`                                                    | BMP images        | ⚠️ no age in the public package |
 | PPG        | `brno-university-of-technology-smartphone-ppg-database-but-ppg-2.0.0.zip` | WFDB (`.hea`/`.dat`) + `subject-info.csv` | Age, Gender |
 
-- **MMCBNU_6000** — 6000 near-infrared finger-vein images: 100 subjects × 6 fingers × 10 captures.
+- **MMCBNU_6000**: 6000 near-infrared finger-vein images: 100 subjects × 6 fingers × 10 captures.
   It was released for finger-vein *recognition*; the bundled files do **not** include per-subject age,
   so we still need age annotations before training the FingerVein age model.
-- **BUT PPG** — 10 s smartphone PPG segments at 30 Hz, stored in PhysioNet WFDB format, with a
+- **BUT PPG**: 10 s smartphone PPG segments at 30 Hz, stored in PhysioNet WFDB format, with a
   `subject-info.csv` providing **Age** (our regression target) and **Gender**.
 
 ## Setup
@@ -52,7 +52,7 @@ uv run jupyter lab          # or: uv run jupyter notebook
 ```
 .
 ├── notebooks/         # exploration / visualization notebooks
-├── data/              # local datasets (gitignored) — optional, archives are read in place
+├── data/              # local datasets (gitignored), optional, archives are read in place
 ├── pyproject.toml     # uv project + dependencies
 └── .vscode/           # VS Code interpreter settings
 ```
