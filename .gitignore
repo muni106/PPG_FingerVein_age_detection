@@ -22,3 +22,5 @@ data/processed/
 # Local AI agent instructions
 AGENTS.md
 CLAUDE.md
+
+notebooks/*.csv

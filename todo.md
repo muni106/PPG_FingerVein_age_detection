@@ -18,9 +18,11 @@
 - [x] `02_ppg_exploration.ipynb` — subject info, age/gender, raw & filtered PPG.
 - [x] `03_combined_dataset.ipynb` — subject-level split + post-split age/sex
   pairing, sanity checks.
-- [~] `04_extracts_fingervein_age_labels.ipynb` — parse per-subject age/sex from
-  the bundled PDF. Finish and **save a versioned labels CSV** (with provenance
-  header) so later notebooks load a stable file instead of re-parsing the PDF.
+- [x] `04_extracts_fingervein_age_labels.ipynb` — parse per-subject age/sex from
+  the bundled PDF. Finished: narrated 7-part notebook with validation asserts,
+  saves the versioned `notebooks/subject_age_labels.csv` (13-line provenance
+  header + 100 rows) so later notebooks load a stable file instead of re-parsing
+  the PDF. Load with `pd.read_csv(path, comment='#', dtype={'Subject': str})`.
 
 ## 2. Shared infrastructure (common work — build once, reuse everywhere)
 **same splits** and the **same metrics** for the comparison to be fair.
