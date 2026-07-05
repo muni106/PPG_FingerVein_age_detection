@@ -24,3 +24,6 @@ AGENTS.md
 CLAUDE.md
 
 notebooks/*.csv
+notebooks/MMCBNU_6000/
+notebooks/brno-university-of-technology-smartphone-ppg-database-but-ppg-2.0.0/
+labs/creditcard.csv
